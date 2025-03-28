@@ -1,5 +1,0 @@
-#Boxplots to See Distribution
-for col in ['usage_freq', 'payment_delay', 'support_tickets']:
-    sns.boxplot(x='churn', y=col, data=df)
-    plt.title(f"{col} vs Churn")
-    plt.show()
